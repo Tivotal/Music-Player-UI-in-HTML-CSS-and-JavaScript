@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player UI</title>
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top-menu">
+        <div class="button">
+          <i class="fas fa-arrow-left"></i>
+        </div>
+        <div class="button mode">
+          <i class="fas fa-moon"></i>
+        </div>
+        <div class="button">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+
+      <div class="thumb">
+        <div class="thumb-img"></div>
+      </div>
+
+      <div class="song-info">
+        <h1 class="title">CALM DOWN</h1>
+        <span class="album">From Rave & Roses</span>
+      </div>
+
+      <div class="slider">
+        <div class="time">
+          <span>2:08</span>
+          <span>4:16</span>
+        </div>
+        <input type="range" min="1" max="100" value="50" />
+      </div>
+
+      <div class="controls">
+        <div class="button">
+          <i class="fas fa-backward"></i>
+        </div>
+        <div class="button">
+          <i class="fas fa-pause"></i>
+        </div>
+        <div class="button">
+          <i class="fas fa-forward"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
