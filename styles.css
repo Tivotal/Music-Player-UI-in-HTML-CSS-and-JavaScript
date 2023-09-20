@@ -11,12 +11,12 @@
 }
 
 :root {
-  --phone-bg: #fff;
+  --wrapper-bg: #fff;
   --body-bg: #f2f2f2;
 }
 
 .dark {
-  --phone-bg: #121212;
+  --wrapper-bg: #121212;
   --body-bg: #302f2f;
 }
 
@@ -33,7 +33,7 @@ body {
 .wrapper {
   height: 500px;
   width: 360px;
-  background-color: var(--phone-bg);
+  background-color: var(--wrapper-bg);
   padding: 5px;
   border-radius: 10px;
   box-shadow: rgba(104, 139, 255, 0.1) 0px 48px 100px 0px,
